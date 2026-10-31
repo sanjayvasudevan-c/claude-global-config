@@ -40,12 +40,12 @@ Core `caveman` skill from https://github.com/JuliusBrussee/caveman (Apache-2.0):
 ## upload-zips/
 Ready-to-upload ZIPs for claude.ai (Customize -> Skills): `find-skills`, `superpowers` (15 guides bundled), `gstack` (62 guides bundled), `caveman`, `skill-creator-custom`, `mcp-builder-custom`, `webapp-testing`, `context7`, `impeccable`, `taste-skill`, `hyperframes`, `ui-ux-pro-max`, `onetake`, `gbro-collage-broll`, `ponytail`, `lemo-opuscar`. Each has exactly one top-level folder and one SKILL.md.
 
-# Skills, commands and descriptions
+## Skills, commands and descriptions
 
 A skill's command is `/<name>`. Descriptions are shortened.
 
 A skill's command is `/<name>`. Descriptions are shortened.
-## Your skills (in this repo and uploaded to claude.ai)
+### Your skills (in this repo and uploaded to claude.ai)
 
 | Skill | Command | What it does |
 |---|---|---|
@@ -66,7 +66,7 @@ A skill's command is `/<name>`. Descriptions are shortened.
 | ponytail | `/ponytail [lite\|full\|ultra\|off]` | Smallest-change "lazy senior dev" mode for coding. |
 | lemo-opuscar | `/lemo-opuscar` | Short films made in code, in 51 named styles. Downloads its library at run time. |
 
-## Already in Claude Code sessions (not from this repo)
+### Already in Claude Code sessions (not from this repo)
 
 | Group | Commands | What it does |
 |---|---|---|
@@ -78,7 +78,7 @@ A skill's command is `/<name>`. Descriptions are shortened.
 | Artifacts and charts | `artifact-design`, `artifact-capabilities`, `artifact-diagramming`, `dataviz` | Guidance for published pages and charts. |
 | Other | `/plugin-authoring`, `/session-start-hook`, `/import-memory` | Build mods and hooks, import memory from another assistant. |
 
-## Notes
+### Notes
 - Some names appear twice in a session (for example `caveman`): one copy is from this repo, one is the claude.ai upload prefixed `anthropic-skills:`.
 - Skills from this repo's `.claude/skills/` only load in sessions on this repo. The claude.ai uploads load in your other cloud sessions.
 - `/gstack` is one skill with 62 guides inside it, not 62 separate commands.
