@@ -38,4 +38,4 @@ All 62 gstack skills (https://github.com/garrytan/gstack, MIT) bundled as ONE sk
 Core `caveman` skill from https://github.com/JuliusBrussee/caveman (Apache-2.0): terse output to save tokens. Skill only, no hooks or CLI.
 
 ## upload-zips/
-Ready-to-upload ZIPs for claude.ai (Customize -> Skills): `find-skills`, `superpowers` (15 guides bundled), `gstack` (62 guides bundled), `caveman`, `skill-creator-custom`, `mcp-builder-custom`, `webapp-testing`, `context7`, `impeccable`, `taste-skill`, `hyperframes`, `ui-ux-pro-max`, `onetake`, `gbro-collage-broll`. Each has exactly one top-level folder and one SKILL.md.
+Ready-to-upload ZIPs for claude.ai (Customize -> Skills): `find-skills`, `superpowers` (15 guides bundled), `gstack` (62 guides bundled), `caveman`, `skill-creator-custom`, `mcp-builder-custom`, `webapp-testing`, `context7`, `impeccable`, `taste-skill`, `hyperframes`, `ui-ux-pro-max`, `onetake`, `gbro-collage-broll`, `ponytail`, `lemo-opuscar`. Each has exactly one top-level folder and one SKILL.md.
