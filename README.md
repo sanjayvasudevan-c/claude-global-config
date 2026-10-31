@@ -82,3 +82,6 @@ A skill's command is `/<name>`. Descriptions are shortened.
 - Some names appear twice in a session (for example `caveman`): one copy is from this repo, one is the claude.ai upload prefixed `anthropic-skills:`.
 - Skills from this repo's `.claude/skills/` only load in sessions on this repo. The claude.ai uploads load in your other cloud sessions.
 - `/gstack` is one skill with 62 guides inside it, not 62 separate commands.
+
+## Superpowers as separate skills
+`upload-zips/superpowers-separate/` has 15 ZIPs, one per skill, so each lists separately in claude.ai. Use these instead of the bundled `superpowers.zip` (remove that one in claude.ai to avoid duplicates).
