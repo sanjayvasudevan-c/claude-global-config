@@ -15,6 +15,7 @@
 | hyperframes | heygen-com/hyperframes | `.claude/skills/hyperframes` | `upload-zips/hyperframes.zip` |
 | ui-ux-pro-max | nextlevelbuilder/ui-ux-pro-max-skill | `.claude/skills/ui-ux-pro-max` | `upload-zips/ui-ux-pro-max.zip` |
 | onetake (noncommercial licence; cases/assets/gallery omitted) | feitangyuan/onetake (PolyForm Noncommercial 1.0.0) | `.claude/skills/onetake` | `upload-zips/onetake.zip` |
+| gbro-collage-broll (needs GEMINI_API_KEY; written for Codex image_gen) | pyang5166/gbro-collage-broll (MIT) | `.claude/skills/gbro-collage-broll` | `upload-zips/gbro-collage-broll.zip` |
 
 Frontmatter trimmed to claude.ai-allowed keys (impeccable: removed version/user-invocable/argument-hint; taste-skill and context7 renamed to match their folder).
 
