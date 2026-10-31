@@ -33,3 +33,9 @@ Skills copied from https://github.com/obra/superpowers (MIT, see .claude/skills/
 
 ## gstack
 All 62 gstack skills (https://github.com/garrytan/gstack, MIT) bundled as ONE skill at `.claude/skills/gstack` (router SKILL.md + references/<name>/GUIDE.md), because claude.ai accepts one skill per ZIP. One GUIDE.md per skill; no binaries, scripts, hooks or setup.
+
+## Caveman
+Core `caveman` skill from https://github.com/JuliusBrussee/caveman (Apache-2.0): terse output to save tokens. Skill only, no hooks or CLI.
+
+## upload-zips/
+Ready-to-upload ZIPs for claude.ai (Customize -> Skills): `find-skills`, `superpowers` (15 guides bundled), `gstack` (62 guides bundled), `caveman`. Each has exactly one top-level folder and one SKILL.md.
