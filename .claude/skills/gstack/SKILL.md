@@ -8,7 +8,7 @@ license: MIT
 
 Router for 62 role guides. Read ONLY the guide(s) matching the task; never load them all.
 
-Open `references/<name>/GUIDE.md` and follow it. Extra files (templates, scripts) sit beside it.
+Open `references/<name>/GUIDE.md` and follow it. Each guide is a single file; helper scripts, templates and checklists it mentions are not bundled.
 
 | Guide | What it is |
 | ----- | ---------- |
