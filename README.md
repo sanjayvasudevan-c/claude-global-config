@@ -27,3 +27,6 @@ npx skills add <owner>/<repo> --skill <skill-name> -a claude-code
 cp -r .claude/skills/* ~/.claude/skills/
 cp CLAUDE.md ~/.claude/CLAUDE.md
 ```
+
+## Superpowers
+Skills copied from https://github.com/obra/superpowers (MIT, see .claude/skills/SUPERPOWERS-LICENSE), without its SessionStart hook. Upload each skill folder as its own ZIP.
