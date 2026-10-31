@@ -14,6 +14,7 @@
 | taste-skill | Leonxlnx/taste-skill | `.claude/skills/taste-skill` | `upload-zips/taste-skill.zip` |
 | hyperframes | heygen-com/hyperframes | `.claude/skills/hyperframes` | `upload-zips/hyperframes.zip` |
 | ui-ux-pro-max | nextlevelbuilder/ui-ux-pro-max-skill | `.claude/skills/ui-ux-pro-max` | `upload-zips/ui-ux-pro-max.zip` |
+| onetake (noncommercial licence; cases/assets/gallery omitted) | feitangyuan/onetake (PolyForm Noncommercial 1.0.0) | `.claude/skills/onetake` | `upload-zips/onetake.zip` |
 
 Frontmatter trimmed to claude.ai-allowed keys (impeccable: removed version/user-invocable/argument-hint; taste-skill and context7 renamed to match their folder).
 
