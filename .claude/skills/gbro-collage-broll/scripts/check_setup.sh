@@ -12,23 +12,23 @@ bad()  { printf 'FAIL  %s\n' "$1"; FAIL=1; }
 
 # 1. GEMINI_API_KEY
 if [ -n "${GEMINI_API_KEY:-}" ]; then
-  ok "GEMINI_API_KEY 已设置"
+  ok "GEMINI_API_KEY is set"
 else
-  bad "GEMINI_API_KEY 未设置（到 https://aistudio.google.com/apikey 创建后 export 到 shell 配置）"
+  bad "GEMINI_API_KEY is not set (create one at https://aistudio.google.com/apikey, then export it in your shell config)"
 fi
 
 # 2. ffmpeg / ffprobe
 if command -v ffmpeg >/dev/null 2>&1 && command -v ffprobe >/dev/null 2>&1; then
-  ok "ffmpeg / ffprobe 可用"
+  ok "ffmpeg / ffprobe available"
 else
-  bad "ffmpeg / ffprobe 缺失（macOS: brew install ffmpeg；Debian/Ubuntu: sudo apt install ffmpeg）"
+  bad "ffmpeg / ffprobe missing (macOS: brew install ffmpeg；Debian/Ubuntu: sudo apt install ffmpeg）"
 fi
 
 # 3. Python >= 3.10
 if command -v python3 >/dev/null 2>&1 && python3 -c 'import sys; sys.exit(0 if sys.version_info >= (3, 10) else 1)' 2>/dev/null; then
   ok "python3 >= 3.10"
 else
-  bad "python3 缺失或版本低于 3.10"
+  bad "python3 missing or older than 3.10"
 fi
 
 # 4. shared venv with google-genai >= 2.10.0
@@ -39,9 +39,9 @@ parts = [int(x) for x in genai.__version__.split(".")[:2]]
 sys.exit(0 if parts >= [2, 10] else 1)
 PY
 then
-  ok "共享 venv 就绪（google-genai >= 2.10.0）"
+  ok "shared venv ready (google-genai >= 2.10.0)"
 else
-  bad "共享 venv 未创建或 google-genai 版本过旧（创建：python3 -m venv ~/hyperframes-projects/.omni-venv && ~/hyperframes-projects/.omni-venv/bin/python -m pip install --upgrade 'google-genai>=2.10.0' 'httpx[socks]'）"
+  bad "shared venv missing or google-genai too old (create it: python3 -m venv ~/hyperframes-projects/.omni-venv && ~/hyperframes-projects/.omni-venv/bin/python -m pip install --upgrade 'google-genai>=2.10.0' 'httpx[socks]'）"
 fi
 
 exit $FAIL
