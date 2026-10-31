@@ -6,8 +6,8 @@
 | superpowers (15 skills) | obra/superpowers (MIT) | 15 folders in `.claude/skills/` + `SUPERPOWERS-LICENSE` | `upload-zips/superpowers.zip` (bundled as one skill) |
 | gstack (62 guides, markdown only) | garrytan/gstack (MIT) | `.claude/skills/gstack` | `upload-zips/gstack.zip` |
 | caveman (core skill) | JuliusBrussee/caveman (Apache-2.0) | `.claude/skills/caveman` | `upload-zips/caveman.zip` |
-| skill-creator | anthropics/skills | `.claude/skills/skill-creator` | `upload-zips/skill-creator.zip` |
-| mcp-builder | anthropics/skills | `.claude/skills/mcp-builder` | `upload-zips/mcp-builder.zip` |
+| skill-creator-custom | anthropics/skills | `.claude/skills/skill-creator-custom` | `upload-zips/skill-creator-custom.zip` |
+| mcp-builder-custom | anthropics/skills | `.claude/skills/mcp-builder-custom` | `upload-zips/mcp-builder-custom.zip` |
 | webapp-testing | anthropics/skills | `.claude/skills/webapp-testing` | `upload-zips/webapp-testing.zip` |
 | context7 (context7-mcp skill) | upstash/context7 | `.claude/skills/context7` | `upload-zips/context7.zip` |
 | impeccable | pbakaus/impeccable (Apache-2.0) | `.claude/skills/impeccable` | `upload-zips/impeccable.zip` |
