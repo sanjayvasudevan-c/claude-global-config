@@ -30,3 +30,6 @@ cp CLAUDE.md ~/.claude/CLAUDE.md
 
 ## Superpowers
 Skills copied from https://github.com/obra/superpowers (MIT, see .claude/skills/SUPERPOWERS-LICENSE), without its SessionStart hook. Upload each skill folder as its own ZIP.
+
+## gstack
+All 62 gstack skills (https://github.com/garrytan/gstack, MIT) bundled as ONE skill at `.claude/skills/gstack` (router SKILL.md + references/<name>/GUIDE.md), because claude.ai accepts one skill per ZIP. Markdown only: no binaries, hooks or setup.
