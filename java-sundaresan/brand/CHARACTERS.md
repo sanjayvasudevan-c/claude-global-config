@@ -3,6 +3,12 @@
 Two characters. They are the format — the references are single-narrator
 monologues, and the dialogue is what makes this ours.
 
+**Build order: characters first, then the brand and logo are derived from
+them.** The logo is not an abstract mark — it is Sundaresan's portrait. That
+means his head has to survive being shrunk to a 40px avatar, so the design is
+driven by silhouette before anything else: the hair mass, the round glasses and
+the beard are the three shapes that must read at any size.
+
 ---
 
 ## SUNDARESAN — the host
@@ -13,6 +19,11 @@ engineer. Dark curly hair, short beard, half-sleeve shirt in `teal` over a
 plain tee, trousers, chappals. Holds a steel **dabara** of filter coffee in his
 left hand at all times — it is never put down, and it never spills, no matter
 what Seeti does. Round wire glasses.
+
+**Avatar test (non-negotiable):** at 40px the hair mass, the round glasses and
+the beard must still be distinguishable as three separate shapes. If the head
+turns into a blob when scaled down, the design is wrong — fix the silhouette,
+not the detail.
 
 **Staging:** lower-LEFT of frame, full body, small (~1/5 frame height). Three
 poses only: *neutral* (standing, sipping), *pointing* (gestures at the machine),

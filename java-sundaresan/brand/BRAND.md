@@ -58,10 +58,18 @@ If everything is orange, nothing is. `teal` only ever means "this is fine".
   hard `ink` border — never a soft rounded box.
 
 ## Logo
-**Mark:** a South Indian filter-coffee **dabara** (tumbler seated in its bowl),
-drawn flat in `ink` and `brass`. The steam rising off it does not dissipate —
-it resolves into **three connected nodes**, a small system topology. Coffee
-becomes architecture.
+**The logo is Sundaresan's face.** Not an abstract mark — the host's portrait.
+A persona channel is recognised by a person, and a face outperforms a symbol in
+a feed of thumbnails.
+
+**Mark:** head-and-shoulders portrait of Sundaresan, front facing, raising his
+**dabara** near his chin. The steam off the coffee does not dissipate — it
+resolves into **three connected nodes** above his head, a small system
+topology. Face and architecture in one mark.
+
+**Derived, not designed first:** the character sheet is the source of truth.
+The logo is cropped and simplified from it, so the avatar and the character on
+screen are unmistakably the same person.
 
 **Wordmark:** `THE JAVA SUNDARESAN`, stacked three lines, condensed heavy,
 left-aligned, `ink` on `paper`.
