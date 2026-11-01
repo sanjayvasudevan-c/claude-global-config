@@ -16,26 +16,39 @@ and a pressure cooker that will not stop screaming.
 
 Handle: `@thejavasundaresan` · short form in-video: **TJS**
 
-## Art direction — "risograph technical manual"
-The look is **printed matter, not screen matter.** A 1970s engineering manual
-run on a risograph: cheap warm paper, three or four spot inks, halftone dots
-doing all the shading, and the accent plate landing about a pixel off register.
+## Art direction — "flat cartoon, printed on cheap paper"
+The look is **a flat 2D animation cartoon, printed**. Two halves, and both
+matter:
 
-This is the whole differentiation strategy. Generic AI video and web-editor
-output share one signature: clean vector, soft gradients, drop shadows, pure
-white or pure black. Every one of those is banned here.
+**1. The drawing is CARTOON.** Clean uniform-weight black outlines. Flat colour
+fills, one solid colour per shape. Simplified chunky graphic forms. Big simple
+expressive eyes. Low detail by design, because every frame has to be redrawn —
+this is a model sheet for animation, not an illustration.
 
-**Banned:** gradients · drop shadows · glows · blur · pure `#FFFFFF` or
-`#000000` · bevels · glassmorphism · stock 3D · lens flare · rounded-corner
-"card" UI.
+**2. The print is CHEAP AND WARM.** Cream paper, limited spot inks, light paper
+grain, a hair of colour misregistration.
+
+> **Correction, learned the hard way:** calling this a "risograph technical
+> manual" produced beautiful *etched engraving* — dense crosshatching, stipple,
+> fine line texture. That is the opposite of cartoon. The texture lives in the
+> **paper and the ink registration only**, never in the linework. Say "flat
+> cartoon" first and "printed" second, never the reverse.
+
+**Banned — rendering:** crosshatching · engraving · etching · stipple ·
+woodcut · scratchboard · line-texture shading · fine detail linework ·
+realistic rendering.
+
+**Banned — digital gloss:** gradients · drop shadows · glows · blur · pure
+`#FFFFFF` or `#000000` · bevels · glassmorphism · stock 3D · lens flare.
 
 **Required in every frame:**
-1. Paper grain over the entire frame, ~10-14% opacity, never animated.
-2. All shading is **halftone dots or hatching**. No smooth ramps, anywhere.
-3. The accent plate sits 1-2px off from the ink plate. Misregistration is the
-   signature — it is the thing that cannot be mistaken for a render.
-4. Line weights are chunky and uneven, as if printed, not hairline-crisp.
-5. Flat spot inks only. A colour is either down or it isn't.
+1. Uniform-weight outlines on everything. No tapering calligraphic strokes.
+2. Flat fills only. If a shape needs shading, it gets a **second flat shape**
+   in a darker tone — never a ramp, never dots.
+3. Paper grain over the frame, ~10% opacity, never animated.
+4. Accent plate 1px off register. Subtle — it should read as cheap printing,
+   not as a glitch effect.
+5. Shapes simple enough that the character is redrawable frame to frame.
 
 ## Palette — four plates
 | Plate | Hex | Carries |
