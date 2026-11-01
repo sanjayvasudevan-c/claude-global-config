@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900">
+<defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+</defs>
+
+<style>
+  .ln   { stroke:#17140F; stroke-width:9; stroke-linejoin:round; stroke-linecap:round; }
+  .thin { stroke:#17140F; stroke-width:7; stroke-linejoin:round; stroke-linecap:round; fill:none; }
+  .skin { fill:#E8B98C; }
+  .skinS{ fill:#D49E70; }
+  .hair { fill:#F7F3EA; }
+  .brass{ fill:#D9A520; }
+  .olive{ fill:#5E6B3A; }
+  .oliveD{fill:#48532C; }
+  .teal { fill:#107E7D; }
+  .flame{ fill:#F2622E; }
+  .ink  { fill:#17140F; }
+  .dark { fill:#2A1C14; }
+  .paper{ fill:#F4ECDC; }
+</style>
+
+<rect width="800" height="900" class="paper"/>
+
+<!-- ===== topology: three nodes (misregistered plate behind) ===== -->
+<g transform="translate(3,3)" opacity="0.35">
+  <path d="M300 92 L500 62 M500 62 L400 160 M400 160 L300 92" stroke="#F2622E" stroke-width="9" fill="none"/>
+  <circle cx="300" cy="92" r="24" fill="#F2622E"/>
+  <circle cx="500" cy="62" r="24" fill="#F2622E"/>
+  <circle cx="400" cy="160" r="24" fill="#F2622E"/>
+</g>
+<g>
+  <path d="M300 92 L500 62 M500 62 L400 160 M400 160 L300 92" class="ln" stroke-width="8" fill="none"/>
+  <circle cx="300" cy="92" r="24" class="flame ln"/>
+  <circle cx="500" cy="62" r="24" class="flame ln"/>
+  <circle cx="400" cy="160" r="24" class="flame ln"/>
+</g>
+
+<g transform="translate(0,118) rotate(-2 400 400)">
+
+  <!-- ===== hair: a few bold spikes, behind the head ===== -->
+  <path class="hair ln" d="
+    M 196 486
+    L 86 430  L 200 392
+    L 60 322  L 206 290
+    L 96 208  L 222 224
+    L 168 110 L 266 186
+    L 262 58  L 328 150
+    L 380 30  L 420 148
+    L 486 54  L 492 166
+    L 594 86  L 556 186
+    L 690 150 L 588 248
+    L 716 268 L 596 318
+    L 702 404 L 600 428
+    L 668 486
+    Z"/>
+
+  <!-- ===== ears ===== -->
+  <ellipse cx="238" cy="386" rx="30" ry="42" class="skin ln"/>
+  <ellipse cx="562" cy="386" rx="30" ry="42" class="skin ln"/>
+
+  <!-- ===== head ===== -->
+  <ellipse cx="400" cy="352" rx="172" ry="186" class="skin ln"/>
+
+  <!-- forehead creases -->
+  <path class="thin" d="M300 330 Q400 312 500 332" opacity="0.5"/>
+
+  <!-- ===== goggles pushed up on forehead ===== -->
+  <path class="ln" fill="#4A4036" d="M214 226 L586 226 L586 252 L214 252 Z"/>
+  <rect x="226" y="238" width="348" height="66" rx="24" class="brass ln"/>
+  <circle cx="312" cy="271" r="47" class="ln" fill="#2E3B3A"/>
+  <circle cx="488" cy="271" r="47" class="ln" fill="#2E3B3A"/>
+  <circle cx="312" cy="271" r="47" class="thin" fill="none" stroke="#D9A520" stroke-width="10"/>
+  <circle cx="488" cy="271" r="47" class="thin" fill="none" stroke="#D9A520" stroke-width="10"/>
+  <path d="M297 256 q14 -10 28 0" stroke="#F4ECDC" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M473 256 q14 -10 28 0" stroke="#F4ECDC" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- ===== brows: one high, one low ===== -->
+  <path class="thin" stroke-width="18" d="M258 356 Q320 324 394 346"/>
+  <path class="thin" stroke-width="18" d="M434 368 Q488 376 542 392"/>
+
+  <!-- ===== eyes: one huge, one squinting ===== -->
+  <ellipse cx="330" cy="408" rx="56" ry="62" class="ln" fill="#F7F3EA"/>
+  <circle cx="338" cy="413" r="19" class="ink"/>
+  <path class="ln" fill="#F7F3EA" d="M430 418 Q482 390 532 416 Q482 442 430 418 Z"/>
+  <circle cx="484" cy="416" r="13" class="ink"/>
+  <!-- eye bags -->
+  <path class="thin" d="M292 462 Q334 482 378 464" opacity="0.55"/>
+  <path class="thin" d="M444 444 Q482 458 520 444" opacity="0.55"/>
+
+  <!-- ===== nose ===== -->
+  <path class="ln" fill="#D49E70" d="M400 428 C 360 448, 348 496, 400 510 C 452 496, 440 448, 400 428 Z"/>
+  <path class="thin" stroke-width="6" d="M378 492 q10 8 22 6 M422 492 q-10 8 -22 6" opacity="0.5"/>
+
+  <!-- ===== neck + shoulders (behind beard) ===== -->
+  <path class="skinS ln" d="M344 540 L344 640 L456 640 L456 540 Z"/>
+  <path class="olive ln" d="M150 782 L150 724 C 176 668, 272 638, 336 630 L400 700 L464 630 C 528 638, 624 668, 650 724 L650 782 Z"/>
+  <path class="oliveD ln" d="M336 630 L400 700 L372 714 L318 652 Z"/>
+  <path class="oliveD ln" d="M464 630 L400 700 L428 714 L482 652 Z"/>
+  <circle cx="246" cy="712" r="13" class="brass ln" stroke-width="6"/>
+  <circle cx="554" cy="712" r="13" class="brass ln" stroke-width="6"/>
+
+  <!-- ===== beard: one solid shape ===== -->
+  <path class="hair ln" d="
+    M 234 418
+    C 216 524, 232 610, 292 676
+    C 322 712, 348 732, 372 748
+    L 398 678 L 424 748
+    C 452 732, 476 712, 506 676
+    C 566 610, 582 524, 564 418
+    C 546 488, 470 502, 400 502
+    C 330 502, 252 488, 234 418
+    Z"/>
+  <!-- moustache -->
+  <path class="hair ln" d="M300 502 C 332 478, 380 486, 400 510 C 420 486, 468 478, 500 502 C 486 540, 424 536, 400 516 C 376 536, 314 540, 300 502 Z"/>
+
+  <!-- ===== manic open grin ===== -->
+  <g transform="rotate(-4 400 574)">
+    <path class="ln" fill="#2A1C14" d="M332 538 Q402 518 472 542 Q460 614 402 618 Q346 612 332 538 Z"/>
+    <path fill="#F4ECDC" d="M343 543 Q402 525 461 547 L457 572 Q402 558 347 570 Z"/>
+    <path class="thin" stroke-width="5" d="M372 534 L370 563 M401 529 L401 560 M430 535 L432 566" opacity="0.5"/>
+  </g>
+
+</g>
+
+<rect width="800" height="900" filter="url(#grain)" opacity="0.14" style="mix-blend-mode:multiply"/>
+</svg>
