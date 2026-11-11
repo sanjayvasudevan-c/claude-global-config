@@ -18,6 +18,7 @@
 | gbro-collage-broll (needs GEMINI_API_KEY; written for Codex image_gen) | pyang5166/gbro-collage-broll (MIT) | `.claude/skills/gbro-collage-broll` | `upload-zips/gbro-collage-broll.zip` |
 | ponytail (main skill only; the 5 sub-skills and hooks not included) | DietrichGebert/ponytail (MIT) | `.claude/skills/ponytail` | `upload-zips/ponytail.zip` |
 | lemo-opuscar (wrapper: clones lemomo-ai/lemo-opuscar and installs npm/pip deps at run time) | visualxintelligence/motion-tools-and-skills (MIT) | `.claude/skills/lemo-opuscar` | `upload-zips/lemo-opuscar.zip` |
+| graphify (skill only: `SKILL.md` + `references/`; the CLI is not bundled and installs from PyPI as `graphifyy` at run time) | Graphify-Labs/graphify (Apache-2.0, pinned to 35d1d20, v0.9.106) | `.claude/skills/graphify` (+ `LICENSE`) | `upload-zips/graphify.zip` |
 
 Frontmatter trimmed to claude.ai-allowed keys (impeccable: removed version/user-invocable/argument-hint; taste-skill and context7 renamed to match their folder).
 
